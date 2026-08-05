@@ -1,0 +1,958 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>AeYunDian</title><description>Do one thing and do it well</description><link>https://undz.cn/</link><language>zh_CN</language><item><title>我们毕业啦！</title><link>https://undz.cn/posts/we_have_graduated2026-07-01/</link><guid isPermaLink="true">https://undz.cn/posts/we_have_graduated2026-07-01/</guid><description>无</description><pubDate>Wed, 01 Jul 2026 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;https://i0.undz.cn/bfs/openplatform/69b8e72f7c5b7f4f38e003af86ca820ed71e2b6c.jpg@1e_1c.webp&quot; alt=&quot;班级毕业合照&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;https://i0.undz.cn/bfs/openplatform/69b8e72f7c5b7f4f38e003af86ca820ed71e2b6c.jpg@1e_1c.webp&lt;/p&gt;
+&lt;p&gt;今天，我们真的毕业了。&lt;/p&gt;
+&lt;p&gt;六年，六个故事，六次成长。&lt;/p&gt;
+&lt;p&gt;一年级，我们是 &lt;strong&gt;“捕风的异乡人”&lt;/strong&gt; ，怯生生地走进校园，一切都是新鲜的。
+二年级， &lt;strong&gt;“为了没有眼泪的明天”&lt;/strong&gt; ，我们学会了擦干眼泪，勇敢面对小小的挫折。
+三年级， &lt;strong&gt;“千朵玫瑰带来的黎明”&lt;/strong&gt; ，我们在知识的芬芳中迎来每一个充满希望的清晨。
+四年级， &lt;strong&gt;“巨龙与自由之歌”&lt;/strong&gt; ，我们在难题面前不再畏惧，唱响属于自己的歌。
+五年级， &lt;strong&gt;“向深水中的晨星”&lt;/strong&gt; ，我们开始探索更广阔的世界，追寻心中的光。
+六年级， &lt;strong&gt;“我们终将重逢”&lt;/strong&gt; ——今天，我们毕业了，但这不是结束，而是另一段旅程的起点。&lt;/p&gt;
+&lt;h2&gt;谢谢您，老师&lt;/h2&gt;
+&lt;p&gt;谢谢您，老师。六年的陪伴，您把知识和关爱种在我们心里。老师，您辛苦了！&lt;/p&gt;
+&lt;h2&gt;谢谢你们，同学&lt;/h2&gt;
+&lt;p&gt;谢谢你们，同学。&lt;strong&gt;艾嘉毅，蔡俊希，柴浩南，陈佑迪，程若涵，高嘉祥，高玮琪，黄皓轩，蒋奕萱，李必顺，李锦程，李书瑶，李希玥，李致远，刘启翔，刘雨薇，刘梓宸，刘梓曦，罗紫萱，马雨馨，毛佳琪，彭皓轩，秦晨铭，沈梦晨，沈一宸，沈雨菲，宋雨成，唐小龙，万康驰，汪安琪，汪玉涵，王梓轩，魏靖宇，魏筱茜，吴思琪，夏子喆，谢希琨，徐佳丽，徐沫晗，徐子晗，许业恒，晏紫彤，杨俊熙，叶亦凡，尹子诺，喻宸宝，张嘉轩，张炎鑫，赵雨童，郑梦琪，周呈祥，周佳宜&lt;/strong&gt; （排名不分先后），还有每一位同窗。
+六年的时光因为有你们而变得热闹、有趣。一起上课，一起吃饭，一起在操场上奔跑……这些平凡的每一天，都是我最珍贵的回忆。&lt;/p&gt;
+&lt;h2&gt;谢谢您，母校&lt;/h2&gt;
+&lt;p&gt;谢谢您，母校。宽敞的教室、绿茵的操场、食堂里香喷喷的饭菜……这里的一草一木，都见证了我们的成长。无论将来走到哪里，我们都不会忘记，这里是我们梦想开始的地方。&lt;/p&gt;
+&lt;h2&gt;未来，我们来了&lt;/h2&gt;
+&lt;p&gt;毕业不是结束，而是新的开始。九月，我们就要走进不同的中学，开始新的旅程。也许会有新的挑战，但我们已经长大了。&lt;/p&gt;
+&lt;p&gt;我们会在新的学校里继续努力，不辜负老师的期望，不辜负父母的付出，也不辜负自己的梦想。&lt;/p&gt;
+&lt;p&gt;最后，祝老师们身体健康，祝同学们前程似锦，祝母校越来越好！&lt;/p&gt;
+&lt;p&gt;我们毕业啦！未来，我们来了！&lt;/p&gt;
+</content:encoded></item><item><title>为 VuePress 博客定制沉浸式 Hero 背景与页脚样式</title><link>https://undz.cn/posts/hero_bg_com2026-06-28/</link><guid isPermaLink="true">https://undz.cn/posts/hero_bg_com2026-06-28/</guid><description>本文介绍如何通过一个无渲染组件 `HeroBG`，为 `vuepress-theme-hope` 主题定制全屏 Hero、固定背景、自适应遮罩以及统一页脚样式，让博客首页更具沉浸感。</description><pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;效果预览&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;全屏 Hero&lt;/strong&gt;：首页 Hero 区域高度占满整个视口（&lt;code&gt;100vh&lt;/code&gt;），营造沉浸式首屏体验。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;背景图固定&lt;/strong&gt;：Hero 背景图在滚动时保持固定（&lt;code&gt;background-attachment: fixed&lt;/code&gt;），产生轻微的视差滚动效果。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;滚动按钮位置优化&lt;/strong&gt;：Hero 右下角的向下滚动按钮（箭头）位置从默认的底部向上微调，避免与 Hero 底部内容重叠。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;亮/暗模式自适应遮罩&lt;/strong&gt;：根据当前主题模式自动调整背景遮罩的透明度，确保文字在不同亮度背景下都能清晰可读。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;页脚风格统一&lt;/strong&gt;：页脚区域也应用了背景图、去除了顶部边框，整体视觉风格与 Hero 保持一致。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;组件功能概述&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;HeroBG&lt;/code&gt; 是一个&lt;strong&gt;无渲染组件&lt;/strong&gt;（不产生任何可见的 UI 元素），它通过全局样式注入的方式，对 &lt;code&gt;vuepress-theme-hope&lt;/code&gt; 主题中 Hero 区域和页脚区域的默认样式进行定制化覆盖。其主要职责包括：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;调整 Hero 区域的高度、背景图定位、滚动按钮位置。&lt;/li&gt;
+&lt;li&gt;为页脚区域添加背景图支持，并去除默认的顶部边框。&lt;/li&gt;
+&lt;li&gt;根据 &lt;code&gt;[data-theme]&lt;/code&gt; 属性动态调整亮色/暗色模式下遮罩层的透明度。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;组件本身不包含任何业务逻辑，仅在 &lt;code&gt;onMounted&lt;/code&gt; 生命周期中输出一条调试日志，用于确认样式已生效。&lt;/p&gt;
+&lt;h2&gt;实现细节&lt;/h2&gt;
+&lt;h3&gt;1. 无渲染组件的设计&lt;/h3&gt;
+&lt;p&gt;组件的模板部分仅包含一个占位注释（或空的 &lt;code&gt;div&lt;/code&gt;），没有任何可见元素。这种“无渲染”模式非常适合纯样式注入场景——不需要担心组件自身的渲染逻辑，所有工作都在 &lt;code&gt;&amp;lt;style&amp;gt;&lt;/code&gt; 块中完成。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;template&amp;gt;
+  &amp;lt;!-- 无渲染样式组件：自定义 Hero 和 Footer 区域样式 --&amp;gt;
+&amp;lt;/template&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;2. Hero 区域全屏与背景定位&lt;/h3&gt;
+&lt;p&gt;Hero 区域默认是内容自适应高度，但为了达到沉浸式首屏效果，需要强制其高度为 &lt;code&gt;100vh&lt;/code&gt;：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;.vp-blog-hero.hero-fullscreen {
+  z-index: 5;
+  height: 100vh !important; // 主题原有样式优先级较高，需要覆盖
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;同时，背景图需要&lt;strong&gt;铺满容器&lt;/strong&gt;并&lt;strong&gt;固定&lt;/strong&gt;，以产生视差滚动效果：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;.vp-blog-hero.hero-fullscreen .vp-blog-mask {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: top;
+  background-position-x: center;
+  background-attachment: fixed;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;background-attachment: fixed&lt;/code&gt; 使得背景图相对于视口固定，而内容滚动时背景保持不动，形成细腻的视觉层次感。&lt;/p&gt;
+&lt;h3&gt;3. 滚动按钮位置调整&lt;/h3&gt;
+&lt;p&gt;Hero 右下角的滚动箭头默认位置可能在 &lt;code&gt;bottom: 2rem&lt;/code&gt; 左右，但全屏 Hero 高度增加后，按钮会紧贴底部边缘，视觉上略显局促。通过微调 &lt;code&gt;bottom&lt;/code&gt; 值将其上移：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;.vp-blog-hero .slide-down-button {
+  bottom: 4.75rem;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;这个值可以根据实际效果自由调整，让按钮与 Hero 底部保持恰到好处的距离。&lt;/p&gt;
+&lt;h3&gt;4. 页脚样式定制&lt;/h3&gt;
+&lt;p&gt;为了让页脚区域也融入网站的视觉体系，我为 &lt;code&gt;.vp-footer-wrapper&lt;/code&gt; 添加了背景图支持，并去除了顶部边框：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;.vp-footer-wrapper {
+  border-top: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: top;
+  background-position-x: center;
+  background-attachment: fixed;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;这样页脚与 Hero 区域在视觉上形成呼应，整个页面的设计语言更加统一。&lt;/p&gt;
+&lt;h3&gt;5. 亮/暗模式遮罩透明度自适应&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;vuepress-theme-hope&lt;/code&gt; 主题通过 &lt;code&gt;[data-theme=&apos;light&apos;]&lt;/code&gt; 和 &lt;code&gt;[data-theme=&apos;dark&apos;]&lt;/code&gt; 属性来标识当前模式。我利用这一特性，为 Hero 遮罩和页脚背景分别设置不同的透明度：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[data-theme=&quot;light&quot;] {
+  .vp-blog-hero .vp-blog-mask::after {
+    background: #000;
+    opacity: 0.3 !important; // 亮色模式下轻微遮罩
+  }
+  .vp-footer-wrapper::before {
+    background: #000;
+    opacity: 0.3;
+  }
+}
+
+[data-theme=&quot;dark&quot;] {
+  .vp-blog-hero .vp-blog-mask::after {
+    background: #000;
+    opacity: 0.7 !important; // 暗色模式下遮罩更不透明
+  }
+  .vp-footer-wrapper::before {
+    background: #000;
+    opacity: 0.7;
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;亮色模式下，浅色背景图的遮罩只需 &lt;code&gt;0.3&lt;/code&gt; 透明度即可让文字清晰；而暗色模式下，深色背景图需要 &lt;code&gt;0.7&lt;/code&gt; 的更高透明度来增强文字与背景的对比度。&lt;/p&gt;
+&lt;h3&gt;6. 生命周期钩子的使用&lt;/h3&gt;
+&lt;p&gt;组件在 &lt;code&gt;onMounted&lt;/code&gt; 中输出一条日志，用于在开发环境下快速确认组件已加载：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;import { onMounted } from &quot;vue&quot;;
+
+onMounted(() =&amp;gt; {
+  console.log(&quot;[HeroBG] Custom styles applied&quot;);
+});
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;实际项目中，这个钩子还可以用来执行一些需要 DOM 就绪后才能进行的操作（如动态添加类名、检测屏幕尺寸等）。&lt;/p&gt;
+&lt;h2&gt;在主题中集成&lt;/h2&gt;
+&lt;p&gt;将该组件注册为全局组件后，它会自动在页面加载时注入样式。在 &lt;code&gt;.vuepress/client.ts&lt;/code&gt; 中：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;import HeroBG from &quot;./components/HeroBG.vue&quot;;
+
+export default defineClientConfig({
+  rootComponents: [
+    HeroBG,
+    // 其他全局组件...
+  ],
+});
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;组件本身不依赖任何外部状态，可以放心地添加到 &lt;code&gt;rootComponents&lt;/code&gt; 中，而不会影响页面渲染性能。&lt;/p&gt;
+&lt;h2&gt;总结&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;HeroBG&lt;/code&gt; 组件以极简的“无渲染 + 样式注入”模式，实现了对 &lt;code&gt;vuepress-theme-hope&lt;/code&gt; 主题 Hero 区域和页脚区域的可视化定制。它充分利用了主题提供的 CSS 类名和 &lt;code&gt;data-theme&lt;/code&gt; 属性，以低成本的方式达成了沉浸式首页效果：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;全屏 Hero&lt;/strong&gt;：提升首屏视觉冲击力。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;固定背景&lt;/strong&gt;：带来细腻的视差滚动体验。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;自适应遮罩&lt;/strong&gt;：确保不同主题模式下文字始终清晰可读。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;页脚风格统一&lt;/strong&gt;：让整站设计语言更加完整。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这种“无渲染组件”的思路非常适合对第三方主题进行轻量级定制，无需 fork 整个主题，也无需修改主题源码，只需在项目层面注入样式即可实现预期效果。如果你也在使用 &lt;code&gt;vuepress-theme-hope&lt;/code&gt; 或其他 Vue 主题，不妨试试这种方式，以最少的代码实现最理想的视觉效果。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;相关资源&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://theme-hope.vuejs.press/&quot;&gt;vuepress-theme-hope 官方文档&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/AeYunDian/aeyundian.github.io/blob/main/src/.vuepress/components/HeroBG.vue&quot;&gt;HeroBG.vue 在 GitHub 上的源码&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+</content:encoded></item><item><title>为 VuePress 博客集成一言（Hitokoto）API</title><link>https://undz.cn/posts/hitokoto_com2026-06-28/</link><guid isPermaLink="true">https://undz.cn/posts/hitokoto_com2026-06-28/</guid><description>在搭建 `undz.cn` 的过程中，我希望博客首页的 Hero 区域能有一些动态的人文气息，而不只是一句固定的标语。于是我在博客首页集成了**一言（Hitokoto）API**，让每次刷新页面或点击时，都能随机展示一句来自不同作品的名言。本文将分享我实现这一效果的 `Hitokoto.vue` 组件设计思路与完整代码。</description><pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;效果预览&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;首次加载&lt;/strong&gt;：组件从 &lt;code&gt;v1.hitokoto.cn&lt;/code&gt; 获取随机一言，展示在博客 Hero 区域。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;内容展示&lt;/strong&gt;：以「『  一言内容  』」的格式居中显示，下方右对齐显示出处（作者 + 来源作品）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;点击刷新&lt;/strong&gt;：点击任意文本区域，组件会重新获取新的一言，并伴随加载状态。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;优雅降级&lt;/strong&gt;：若 API 请求失败或返回异常，自动切换为预设的网站标语（Tagline），保证页面内容不空缺。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;加载状态&lt;/strong&gt;：数据加载过程中，显示友好的 &quot;Please wait a moment...&quot; 提示，避免界面空白。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;组件功能概述&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;Hitokoto.vue&lt;/code&gt; 是一个轻量的 Vue 组件，负责从一言公共 API 获取名言数据并在博客首页展示。它的主要职责包括：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;组件挂载时自动请求一言 API 并渲染内容。&lt;/li&gt;
+&lt;li&gt;提供点击刷新功能，用户点击任意文本即可触发新的请求。&lt;/li&gt;
+&lt;li&gt;管理加载状态（&lt;code&gt;loading&lt;/code&gt;）和备用展示（&lt;code&gt;showTagline&lt;/code&gt;），确保任何情况下页面都有内容可看。&lt;/li&gt;
+&lt;li&gt;对 API 响应进行校验，仅当返回数据包含 &lt;code&gt;hitokoto&lt;/code&gt; 字段时才更新视图，否则优雅降级。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;实现细节&lt;/h2&gt;
+&lt;h3&gt;1. API 请求与缓存控制&lt;/h3&gt;
+&lt;p&gt;组件使用 &lt;code&gt;fetch&lt;/code&gt; 发送 GET 请求，并通过添加时间戳参数 &lt;code&gt;_t=${Date.now()}&lt;/code&gt; 来防止浏览器缓存，确保每次请求都能获取到最新的一言数据。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;const API_URL = &quot;https://v1.hitokoto.cn/?encode=json&quot;;
+
+async function refresh() {
+  loading.value = true;
+  const response = await fetch(API_URL + `&amp;amp;_t=${Date.now()}`);
+  const data = await response.json();
+  // ...
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;一言官方 API 默认返回 JSON 格式，包含 &lt;code&gt;hitokoto&lt;/code&gt;（内容）、&lt;code&gt;from&lt;/code&gt;（来源）、&lt;code&gt;from_who&lt;/code&gt;（作者）等字段，非常适合直接渲染。&lt;/p&gt;
+&lt;h3&gt;2. 状态管理与错误处理&lt;/h3&gt;
+&lt;p&gt;组件维护了三个核心响应式状态：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;loading&lt;/code&gt;：是否处于加载中，用于显示加载提示。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;showTagline&lt;/code&gt;：API 请求失败时，是否显示备用标语。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;event&lt;/code&gt;：成功获取到的一言数据对象。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在 &lt;code&gt;refresh&lt;/code&gt; 函数中，使用 &lt;code&gt;try...catch...finally&lt;/code&gt; 结构统一处理：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;try {
+  const data = await response.json();
+  if (data.hitokoto != null) {
+    event.value = data;
+  } else {
+    showTagline.value = true;
+    console.error(&quot;Hitokoto:&quot;, data.msg || &quot;Unknown error&quot;);
+  }
+} catch (e) {
+  showTagline.value = true;
+  console.error(&quot;Hitokoto:&quot;, e.message || e);
+} finally {
+  loading.value = false;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;这种处理方式确保了：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;请求成功且数据合法 → 展示一言。&lt;/li&gt;
+&lt;li&gt;请求失败或数据异常 → 展示备用标语，不影响用户体验。&lt;/li&gt;
+&lt;li&gt;无论成功与否，加载状态都会被正确关闭。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;3. 模板中的条件渲染&lt;/h3&gt;
+&lt;p&gt;组件模板根据状态展示不同的内容：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;template&amp;gt;
+  &amp;lt;!-- 加载中 --&amp;gt;
+  &amp;lt;div v-if=&quot;loading&quot; class=&quot;hitokoto-loading&quot;&amp;gt;Please wait a moment...&amp;lt;/div&amp;gt;
+
+  &amp;lt;!-- API 失败，展示备用标语 --&amp;gt;
+  &amp;lt;p
+    v-else-if=&quot;showTagline&quot;
+    class=&quot;vp-blog-hero-description&quot;
+    @click=&quot;refresh()&quot;
+  &amp;gt;
+    Do one thing and do it well
+  &amp;lt;/p&amp;gt;
+
+  &amp;lt;!-- 正常展示一言 --&amp;gt;
+  &amp;lt;div v-else&amp;gt;
+    &amp;lt;p class=&quot;vp-blog-hero-description&quot; @click=&quot;refresh()&quot;&amp;gt;
+      『&amp;amp;nbsp;{{ event.hitokoto }}&amp;amp;nbsp;』
+    &amp;lt;/p&amp;gt;
+    &amp;lt;p style=&quot;text-align: end; color: #fffc;&quot; @click=&quot;refresh()&quot;&amp;gt;
+      ——&amp;amp;nbsp;{{ event.from_who }}&amp;amp;nbsp;「&amp;amp;nbsp;{{ event.from }}&amp;amp;nbsp;」
+    &amp;lt;/p&amp;gt;
+  &amp;lt;/div&amp;gt;
+&amp;lt;/template&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;三个分支清晰对应三种状态，每个可点击区域都绑定了 &lt;code&gt;@click=&quot;refresh()&quot;&lt;/code&gt;，让用户可以随时刷新内容。点击交互不仅提升了趣味性，也让用户对内容有一定掌控感。&lt;/p&gt;
+&lt;h3&gt;4. 样式与主题适配&lt;/h3&gt;
+&lt;p&gt;组件样式直接复用了 &lt;code&gt;vuepress-theme-hope&lt;/code&gt; 主题提供的 &lt;code&gt;.vp-blog-hero-description&lt;/code&gt; 类，确保字体、大小、颜色与 Hero 区域的其他文字保持一致。同时，通过 &lt;code&gt;text-align: end&lt;/code&gt; 让出处右对齐，营造出“名言 + 署名”的文艺感。&lt;/p&gt;
+&lt;p&gt;此外，&lt;code&gt;cursor: pointer&lt;/code&gt; 的添加让用户直观感知到可点击交互，提升了可用性。&lt;/p&gt;
+&lt;h2&gt;在主题中集成&lt;/h2&gt;
+&lt;p&gt;将该组件注册为全局组件后，在博客首页的 Hero 区域使用即可。在 &lt;code&gt;.vuepress/client.ts&lt;/code&gt; 中：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;import Hitokoto from &quot;./components/Hitokoto.vue&quot;;
+
+export default defineClientConfig({
+  rootComponents: [
+    Hitokoto,
+    // 其他全局组件...
+  ],
+});
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;在 &lt;code&gt;Blog&lt;/code&gt; 布局中，通过插槽将其放置在 Hero 信息区域：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;template #heroInfo&amp;gt;
+  &amp;lt;div class=&quot;vp-blog-hero-info&quot;&amp;gt;
+    &amp;lt;h1 class=&quot;vp-blog-hero-title&quot;&amp;gt;undz&amp;lt;/h1&amp;gt;
+    &amp;lt;Hitokoto /&amp;gt;
+  &amp;lt;/div&amp;gt;
+&amp;lt;/template&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;总结&lt;/h2&gt;
+&lt;p&gt;一言 API 为静态博客注入了动态的生命力，而 &lt;code&gt;Hitokoto.vue&lt;/code&gt; 组件以极简的代码实现了“加载-展示-刷新-容错”的完整闭环。整个组件不足 50 行核心逻辑，却兼顾了交互反馈、异常处理和视觉一致性，充分体现了“小而美”的设计理念。&lt;/p&gt;
+&lt;p&gt;如果你也在搭建个人站点，不妨用一言 API 为自己的博客添一抹人文色彩 —— 有时候，一句恰到好处的话，比任何炫酷的动效都更能打动人心。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;相关资源&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://hitokoto.cn/api&quot;&gt;一言 API 官方文档&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://theme-hope.vuejs.press/&quot;&gt;vuepress-theme-hope 官方文档&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/AeYunDian/aeyundian.github.io/blob/main/src/.vuepress/components/Hitokoto.vue&quot;&gt;Hitokoto.vue 在 GitHub 上的源码&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+</content:encoded></item><item><title>为 VuePress 站点添加隐私政策同意横幅</title><link>https://undz.cn/posts/privacy_messaging_com2026-06-27/</link><guid isPermaLink="true">https://undz.cn/posts/privacy_messaging_com2026-06-27/</guid><description>在搭建 undz.cn 的过程中，我需要确保网站符合 GDPR 及国内相关隐私法规的要求，尤其是在使用 Cookie 和第三方服务时。本文分享了 PrivacyMessaging.vue 组件的设计思路与实现细节，它提供了一个可配置的隐私同意横幅，帮助用户在阅读协议后自主选择 Cookie 偏好。</description><pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;效果预览&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;首次访问&lt;/strong&gt;：页面底部（或移动端贴底）显示隐私同意卡片，遮罩全屏。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;协议阅读&lt;/strong&gt;：卡片内嵌《隐私政策》《Cookie 政策》《服务条款》的快速预览模态框，用户需分别点击“我已阅读并理解”才能启用同意复选框。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;同意选项&lt;/strong&gt;：用户可以选择“接受全部（协议及所有 Cookie）”或“接受协议和仅必要 Cookie”。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;状态持久化&lt;/strong&gt;：同意记录存入 &lt;code&gt;localStorage&lt;/code&gt;，并附带版本号，方便未来政策更新时重新征求同意。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;豁免路径&lt;/strong&gt;：在隐私政策、服务条款等页面自动隐藏横幅，避免用户陷入循环。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;响应式适配&lt;/strong&gt;：在移动端以底部抽屉样式呈现，与原生 App 风格类似。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;组件功能概述&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;PrivacyMessaging&lt;/code&gt; 是一个包含完整 UI 的功能组件，负责管理用户隐私同意的整个生命周期，包括：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;检测当前路由是否为豁免路径（如隐私政策页本身），自动隐藏横幅。&lt;/li&gt;
+&lt;li&gt;从 &lt;code&gt;localStorage&lt;/code&gt; 读取同意记录，根据版本号判断是否需要重新显示。&lt;/li&gt;
+&lt;li&gt;展示协议摘要模态框，强制用户逐一点击确认阅读，方可勾选同意复选框。&lt;/li&gt;
+&lt;li&gt;提供两种同意粒度：“全部 Cookie” 与 “仅必要 Cookie”。&lt;/li&gt;
+&lt;li&gt;将用户选择持久化，并触发后续的 Cookie 实际控制逻辑（可扩展）。&lt;/li&gt;
+&lt;li&gt;在路由变化时自动重新评估显示状态，确保行为一致。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;该组件不依赖外部库，仅使用 Vue 核心功能和浏览器原生 API，易于集成到任何 Vue 3 项目中。&lt;/p&gt;
+&lt;h2&gt;实现细节&lt;/h2&gt;
+&lt;h3&gt;1. 路由豁免与状态恢复&lt;/h3&gt;
+&lt;p&gt;组件在 &lt;code&gt;mounted&lt;/code&gt; 时检查当前路径是否属于豁免列表（如 &lt;code&gt;/privacy_policy/&lt;/code&gt;），如果是则直接隐藏横幅（&lt;code&gt;consentGiven = true&lt;/code&gt;），不读取任何存储。否则，从 &lt;code&gt;localStorage&lt;/code&gt; 尝试读取 &lt;code&gt;cookieConsent&lt;/code&gt;，若存在且版本号匹配，则标记为已同意。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;checkRouteAndSetConsent() {
+  if (this.isExemptPath()) {
+    this.consentGiven = true;
+    return;
+  }
+  const stored = localStorage.getItem(&apos;cookieConsent&apos;);
+  if (stored) {
+    try {
+      const data = JSON.parse(stored);
+      if (data.version === this.PrivacyVersion) {
+        this.consentGiven = true;
+        return;
+      }
+    } catch (e) { /* 忽略解析错误 */ }
+  }
+  this.consentGiven = false;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;2. 协议阅读确认机制&lt;/h3&gt;
+&lt;p&gt;为了满足“明确同意”的要求，我们设计了三个独立的阅读状态（&lt;code&gt;privacyPolicyRead&lt;/code&gt;、&lt;code&gt;cookiePolicyRead&lt;/code&gt;、&lt;code&gt;termsPolicyRead&lt;/code&gt;），初始均为 &lt;code&gt;false&lt;/code&gt;。只有当用户点击对应的“我已阅读并理解”按钮后，相应的状态才变为 &lt;code&gt;true&lt;/code&gt;。这三个状态通过计算属性 &lt;code&gt;canEnableCheckbox&lt;/code&gt; 联合控制复选框的可用性，从而保证用户确实浏览过协议摘要。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;computed: {
+  canEnableCheckbox() {
+    return this.privacyPolicyRead &amp;amp;&amp;amp; this.cookiePolicyRead &amp;amp;&amp;amp; this.termsPolicyRead;
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;模态框内容使用简单的 HTML 字符串，并提供了指向完整政策页面的链接（在新窗口打开）。&lt;/p&gt;
+&lt;h3&gt;3. 同意选项与存储结构&lt;/h3&gt;
+&lt;p&gt;两个按钮分别调用 &lt;code&gt;acceptAll&lt;/code&gt; 和 &lt;code&gt;acceptNecessaryOnly&lt;/code&gt;，构造同意对象并写入 &lt;code&gt;localStorage&lt;/code&gt;：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;const consentData = {
+  type: &quot;all&quot;, // 或 &apos;necessary&apos;
+  preferences: { necessary: true, analytics: true, advertising: true },
+  version: this.PrivacyVersion,
+  timestamp: Date.now(),
+};
+localStorage.setItem(&quot;cookieConsent&quot;, JSON.stringify(consentData));
+this.consentGiven = true;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;这里预留了 &lt;code&gt;preferences&lt;/code&gt; 字段，未来可以扩展更细粒度的 Cookie 分类控制。&lt;/p&gt;
+&lt;h3&gt;4. 路由变化监听&lt;/h3&gt;
+&lt;p&gt;使用 &lt;code&gt;vue-router&lt;/code&gt; 的 &lt;code&gt;afterEach&lt;/code&gt; 钩子，在每次路由跳转后重新执行 &lt;code&gt;checkRouteAndSetConsent&lt;/code&gt;，确保从豁免路径返回正常页面时，横幅能正确显示。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;if (this.$router) {
+  this.routerUnsubscribe = this.$router.afterEach(() =&amp;gt; {
+    this.checkRouteAndSetConsent();
+  });
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;同时，在组件销毁前清理监听器，避免内存泄漏。&lt;/p&gt;
+&lt;h3&gt;5. 响应式布局与动画&lt;/h3&gt;
+&lt;p&gt;卡片采用固定定位 + &lt;code&gt;flex&lt;/code&gt; 垂直居底，并通过 &lt;code&gt;@keyframes slideUp&lt;/code&gt; 实现从底部滑入的动效。移动端媒体查询将卡片圆角调整为顶部圆角，并移除边距，达到沉浸式底栏效果。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;.privacy-consent-overlay {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  /* ... */
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;样式适配要点&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;CSS 变量&lt;/strong&gt;：使用 &lt;code&gt;var(--vp-c-bg)&lt;/code&gt;、&lt;code&gt;var(--vp-c-text)&lt;/code&gt; 等变量，自动适配 VitePress 或 vuepress-theme-hope 的亮色/暗色模式。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;按钮交互&lt;/strong&gt;：主按钮采用主题强调色（&lt;code&gt;--vp-c-accent&lt;/code&gt;），次要按钮使用灰色背景，符合常见设计规范。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;警告信息&lt;/strong&gt;：在复选框未启用时，显示红色提示文字，引导用户阅读协议。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;模态框&lt;/strong&gt;：独立于主卡片之上，&lt;code&gt;z-index&lt;/code&gt; 更高，包含滚动内容和关闭按钮。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;在主题中集成&lt;/h2&gt;
+&lt;p&gt;该组件需要被注册为全局组件，以便在任意页面都能生效。在 &lt;code&gt;.vuepress/client.ts&lt;/code&gt; 中通过 &lt;code&gt;rootComponents&lt;/code&gt; 引入：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;import PrivacyMessaging from &quot;./components/PrivacyMessaging.vue&quot;;
+
+export default defineClientConfig({
+  rootComponents: [
+    PrivacyMessaging,
+    // 其他全局组件...
+  ],
+});
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;组件自身不依赖任何外部状态，开箱即用，但您可以根据需要调整豁免路径、版本号或文本内容。&lt;/p&gt;
+&lt;h2&gt;总结&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;PrivacyMessaging&lt;/code&gt; 组件以极低的集成成本，为 VuePress 站点提供了符合隐私法规的同意管理界面。它通过确认阅读、版本化存储、路由感知等设计，确保了用户知情权和选择权。同时，其响应式布局和主题变量适配，使其能够无缝融入现有设计体系。如果您也在搭建需要合规 Cookie 管理的站点，希望本文能为您提供一些参考。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;相关资源&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://gdpr-info.eu/&quot;&gt;GDPR 合规指南&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://theme-hope.vuejs.press/&quot;&gt;vuepress-theme-hope 官方文档&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/AeYunDian/aeyundian.github.io/blob/main/src/.vuepress/components/PrivacyMessaging.vue&quot;&gt;PrivacyMessaging.vue 在 GitHub 上的源码&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+</content:encoded></item><item><title>为 VuePress 主题添加动态导航栏美化</title><link>https://undz.cn/posts/top_nav_beautify_com2026-06-13/</link><guid isPermaLink="true">https://undz.cn/posts/top_nav_beautify_com2026-06-13/</guid><description>在搭建 undz.cn 的过程中，我希望博客首页能有一个沉浸式的Hero，并且导航栏在滚动时能够平滑过渡，同时在非首页时恢复正常的样式。本文将分享我实现这一效果的 TopNavBeautify 组件的设计思路与完整代码。</description><pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;为 VuePress 主题添加动态导航栏美化&lt;/h1&gt;
+&lt;h2&gt;效果预览&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;首页滚动到顶部&lt;/strong&gt;：导航栏背景透明，无阴影，无毛玻璃。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;向下滚动离开 Hero&lt;/strong&gt;：导航栏自动添加背景模糊（毛玻璃），文字颜色变浅，并出现阴影。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;非首页（文章页、关于页等）&lt;/strong&gt;：导航栏保持正常的主题样式，不受滚动影响。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;侧边栏切换按钮&lt;/strong&gt;：同样跟随滚动状态改变颜色。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;组件功能概述&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;TopNavBeautify&lt;/code&gt; 是一个无渲染组件（不产生实际 UI 元素），通过监听滚动事件和路由变化，动态为 &lt;code&gt;.theme-container&lt;/code&gt; 添加/移除特定的 CSS 类，从而触发导航栏的样式变化。它的主要作用包括：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;检测当前页面是否为博客首页（是否存在 &lt;code&gt;.vp-blog-hero&lt;/code&gt; 元素）。&lt;/li&gt;
+&lt;li&gt;监听滚动位置，当滚动距离 &lt;code&gt;&amp;lt; 60px&lt;/code&gt; 时添加 &lt;code&gt;ayund-scroll-top&lt;/code&gt; 类。&lt;/li&gt;
+&lt;li&gt;在首页时，根据滚动距离是否小于 Hero 高度减去 30px，添加 &lt;code&gt;ayund-scroll-blog-hero-inner&lt;/code&gt; 类。&lt;/li&gt;
+&lt;li&gt;监听路由变化，离开首页时移除首页专属的样式类。&lt;/li&gt;
+&lt;li&gt;为侧边栏切换按钮绑定事件，确保每次打开/关闭侧边栏后重新检测滚动状态。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;实现细节&lt;/h2&gt;
+&lt;h3&gt;1. 检测博客 Hero&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;const blogHeroElms = document.getElementsByClassName(&quot;vp-blog-hero&quot;);
+const hasHero = blogHeroElms.length &amp;gt; 0;
+if (hasHero) {
+  themeElm.classList.add(&quot;ayund-blog-hero&quot;);
+} else {
+  themeElm.classList.remove(&quot;ayund-blog-hero&quot;);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;vuepress-theme-hope&lt;/code&gt; 的主题中，博客首页会自动生成 &lt;code&gt;vp-blog-hero&lt;/code&gt; 容器。我们通过它的存在来判断当前页面是否为博客首页。&lt;/p&gt;
+&lt;h3&gt;2. 滚动监听与类切换&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;const scrollTop = document.documentElement.scrollTop;
+if (scrollTop &amp;lt; 60) {
+  themeElm.classList.add(&quot;ayund-scroll-top&quot;);
+} else {
+  themeElm.classList.remove(&quot;ayund-scroll-top&quot;);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;滚动距离小于 60px 时，我们认为导航栏位于“顶部透明区域”，此时移除阴影和背景。这个阈值可以根据您的页面布局微调。&lt;/p&gt;
+&lt;p&gt;对于首页 Hero，我们还需要一个更精细的控制：当滚动距离小于 Hero 高度减 30px 时，导航栏文字使用亮色（适合深色 Hero 背景）；超过该距离后，导航栏恢复默认文字颜色。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;if (scrollTop &amp;lt; blogHeroElm.clientHeight - 30) {
+  themeElm.classList.add(&quot;ayund-scroll-blog-hero-inner&quot;);
+} else {
+  themeElm.classList.remove(&quot;ayund-scroll-blog-hero-inner&quot;);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;3. 路由变化后&lt;/h3&gt;
+&lt;p&gt;使用 &lt;code&gt;vue-router&lt;/code&gt; 的 &lt;code&gt;afterEach&lt;/code&gt; 钩子，在每次路由跳转后重新执行样式检测。由于 DOM 更新可能有延迟，使用 &lt;code&gt;nextTick&lt;/code&gt; 加 &lt;code&gt;setTimeout&lt;/code&gt; 等待 50ms。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;router.afterEach(() =&amp;gt; {
+  nextTick(() =&amp;gt; {
+    setTimeout(() =&amp;gt; {
+      CheckScrollTopClass();
+    }, 50);
+  });
+});
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;另外，&lt;code&gt;checkRootPath&lt;/code&gt; 函数会在离开首页时强制移除 &lt;code&gt;ayund-scroll-blog-hero-inner&lt;/code&gt; 类，避免样式残留。&lt;/p&gt;
+&lt;h3&gt;4. 侧边栏切换的适配&lt;/h3&gt;
+&lt;p&gt;当用户点击移动端的侧边栏切换按钮时，页面布局会变化，滚动位置可能不变，但我们需要重新检测是否仍满足“滚动距离小于 60px”的条件。因此，我们为 &lt;code&gt;.vp-toggle-sidebar-button&lt;/code&gt; 绑定了 &lt;code&gt;click&lt;/code&gt; 事件。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;toggleSidebarElm.removeEventListener(&quot;click&quot;, CheckSidebarOpen);
+toggleSidebarElm.addEventListener(&quot;click&quot;, CheckSidebarOpen);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;这里先移除再添加是为了防止重复绑定。&lt;/p&gt;
+&lt;h2&gt;样式适配要点&lt;/h2&gt;
+&lt;p&gt;在 SCSS 中，我们定义了几个关键的样式规则：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;当同时存在 &lt;code&gt;ayund-scroll-top&lt;/code&gt; 和 &lt;code&gt;ayund-blog-hero&lt;/code&gt; 时，导航栏 &lt;code&gt;box-shadow: none&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;首页时，导航栏背景默认透明（&lt;code&gt;background: transparent&lt;/code&gt;）。&lt;/li&gt;
+&lt;li&gt;在 &lt;code&gt;ayund-scroll-blog-hero-inner&lt;/code&gt; 状态下，导航栏内的链接、图标、按钮颜色都改为浅色（&lt;code&gt;#eee&lt;/code&gt;），并添加文字阴影，以适应深色 Hero。&lt;/li&gt;
+&lt;li&gt;暗色模式（&lt;code&gt;[data-theme=&apos;dark&apos;]&lt;/code&gt;）下，我们隐藏了下拉箭头（&lt;code&gt;.arrow&lt;/code&gt;），保持界面整洁。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;在主题中集成&lt;/h2&gt;
+&lt;p&gt;该组件需要被注册为全局组件。在 &lt;code&gt;.vuepress/client.ts&lt;/code&gt; 或 &lt;code&gt;.vuepress/config.ts&lt;/code&gt; 中通过 &lt;code&gt;rootComponents&lt;/code&gt; 引入：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;import TopNavBeautify from &quot;./components/TopNavBeautify.vue&quot;;
+
+export default defineClientConfig({
+  rootComponents: [
+    TopNavBeautify,
+    // 其他全局组件...
+  ],
+});
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;组件的 &lt;code&gt;&amp;lt;template&amp;gt;&lt;/code&gt; 中只包含一个隐藏的占位元素，不会影响页面布局。&lt;/p&gt;
+&lt;h2&gt;总结&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;TopNavBeautify&lt;/code&gt; 组件，以极低的成本实现了导航栏的动态美化，提升了博客首页的视觉体验。这种“无渲染组件 + CSS 类切换”的模式非常适合对第三方主题进行轻量级定制，而无需 fork 整个主题。如果您也在使用 VuePress，希望这篇文章能给您带来一些用途。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;相关资源&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://theme-hope.vuejs.press/&quot;&gt;vuepress-theme-hope 官方文档&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/AeYunDian/aeyundian.github.io/blob/main/src/.vuepress/components/TopNavBeautify.vue&quot;&gt;TopNavBeautify.vue 在 GitHub 上的源码&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+</content:encoded></item><item><title>GitHub 加速与代理服务使用指南</title><link>https://undz.cn/posts/accelerate_your_github2026-05-20/</link><guid isPermaLink="true">https://undz.cn/posts/accelerate_your_github2026-05-20/</guid><description>本文讲述了 AeYunDian 提供的 GitHub 加速服务及其使用方法。</description><pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;[!WARNING]
+此面向公众的为 GitHub 加速服务，不是 VPN，请注意区分！&lt;/p&gt;
+&lt;p&gt;在国内访问 GitHub 及其相关资源（如 raw、gist、各类 assets）时，经常遇到速度慢、甚至无法打开的问题。本文介绍一个基于 Cloudflare Worker 实现的代理服务，提供两种代理模式：&lt;strong&gt;无需授权的 GitHub 专用加速&lt;/strong&gt; 和 &lt;strong&gt;需要授权的通用代理&lt;/strong&gt;，帮助你稳定、快速地访问 GitHub 生态资源。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;服务地址&lt;/h2&gt;
+&lt;p&gt;代理服务由 &lt;code&gt;api.undz.cn&lt;/code&gt; 提供，支持 HTTPS 访问。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;一、GitHub 专用加速模式（无需授权）&lt;/h2&gt;
+&lt;p&gt;该模式专为 GitHub 及其关联域名设计，&lt;strong&gt;无需任何密钥&lt;/strong&gt;，直接通过特定路径前缀即可代理请求。&lt;/p&gt;
+&lt;h3&gt;可用前缀&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;前缀&lt;/th&gt;
+&lt;th&gt;功能&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;/gh/&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;普通代理，直接返回原始内容（不重写页面）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;/gh_fix/&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;智能代理，自动重写 HTML 中的链接、资源路径，解决样式丢失问题&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;使用方式&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;方法一： 将你要访问的 GitHub 原始 URL 前面添加 （下载文件时推荐）：
+https://api.undz.cn/gh/
+或者 （访问 GitHub 网页时推荐）
+https://api.undz.cn/gh_fix/&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;方法二： 将你要访问的 GitHub 原始 URL 转换为以下格式：
+https://api.undz.cn/gh/[类型]/[剩余路径]
+其中 &lt;code&gt;[类型]&lt;/code&gt; 支持以下简写（自动映射到真实的 GitHub 域名）：&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;简写&lt;/th&gt;
+&lt;th&gt;对应域名&lt;/th&gt;
+&lt;th&gt;说明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;www&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;github.com&lt;/td&gt;
+&lt;td&gt;GitHub 主站&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;raw&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;raw.githubusercontent.com&lt;/td&gt;
+&lt;td&gt;原始文件下载&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;gist&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;gist.github.com&lt;/td&gt;
+&lt;td&gt;Gist 代码片段&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;api&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;api.github.com&lt;/td&gt;
+&lt;td&gt;GitHub API&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;io&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;github.io&lt;/td&gt;
+&lt;td&gt;GitHub Pages&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;camo&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;camo.githubusercontent.com&lt;/td&gt;
+&lt;td&gt;图片缓存&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;avatars&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;avatars.githubusercontent.com&lt;/td&gt;
+&lt;td&gt;用户头像&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;usercontent&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;user-content.githubusercontent.com&lt;/td&gt;
+&lt;td&gt;用户生成内容&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;assets&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;assets-cdn.github.com&lt;/td&gt;
+&lt;td&gt;资源 CDN&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;ghs&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;github.global.ssl.fastly.net&lt;/td&gt;
+&lt;td&gt;GitHub 全球加速节点&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;greasyfork&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;greasyfork.org&lt;/td&gt;
+&lt;td&gt;GreasyFork 脚本站&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;upgf&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;update.greasyfork.org&lt;/td&gt;
+&lt;td&gt;GreasyFork 更新源&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;dev&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;github.dev&lt;/td&gt;
+&lt;td&gt;GitHub Web 编辑器&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;githubassets&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;github.githubassets.com&lt;/td&gt;
+&lt;td&gt;GitHub 静态资源&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;support&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;support-assets.githubassets.com&lt;/td&gt;
+&lt;td&gt;GitHub 支持资源&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;edu&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;education.github.com&lt;/td&gt;
+&lt;td&gt;GitHub 教育&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;res&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;resources.github.com&lt;/td&gt;
+&lt;td&gt;GitHub 资源&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;upload&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;uploads.github.com&lt;/td&gt;
+&lt;td&gt;GitHub 上传服务&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;ap&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;archiveprogram.github.com&lt;/td&gt;
+&lt;td&gt;GitHub 归档计划&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;guc&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;githubusercontent.com&lt;/td&gt;
+&lt;td&gt;GitHub 用户内容泛域名&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;cloud&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;cloud.githubusercontent.com&lt;/td&gt;
+&lt;td&gt;云图片缓存&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;avatars0&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;avatars0.githubusercontent.com&lt;/td&gt;
+&lt;td&gt;头像 0 号节点&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;avatars1&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;avatars1.githubusercontent.com&lt;/td&gt;
+&lt;td&gt;头像 1 号节点&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;avatars2&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;avatars2.githubusercontent.com&lt;/td&gt;
+&lt;td&gt;头像 2 号节点&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;avatars3&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;avatars3.githubusercontent.com&lt;/td&gt;
+&lt;td&gt;头像 3 号节点&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;avatars4&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;avatars4.githubusercontent.com&lt;/td&gt;
+&lt;td&gt;头像 4 号节点&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;userimg&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;user-images.githubusercontent.com&lt;/td&gt;
+&lt;td&gt;用户上传图片&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;objects&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;objects.githubusercontent.com&lt;/td&gt;
+&lt;td&gt;对象存储&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;pui&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;private-user-images.githubusercontent.com&lt;/td&gt;
+&lt;td&gt;私有用户图片&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;pages&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;pages.github.com&lt;/td&gt;
+&lt;td&gt;GitHub Pages 信息&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;app&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;githubapp.com&lt;/td&gt;
+&lt;td&gt;GitHub 应用域名&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;示例&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;访问 GitHub 仓库首页&lt;/strong&gt;&lt;br /&gt;
+原始地址：&lt;code&gt;https://github.com/octocat/Hello-World&lt;/code&gt;&lt;br /&gt;
+代理地址：&lt;code&gt;https://api.undz.cn/gh/www/octocat/Hello-World&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;下载 raw 文件&lt;/strong&gt;&lt;br /&gt;
+原始地址：&lt;code&gt;https://raw.githubusercontent.com/octocat/Hello-World/master/README&lt;/code&gt;&lt;br /&gt;
+代理地址：&lt;code&gt;https://api.undz.cn/gh/raw/octocat/Hello-World/master/README&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;查看 Gist&lt;/strong&gt;&lt;br /&gt;
+原始地址：&lt;code&gt;https://gist.github.com/username/abc123&lt;/code&gt;&lt;br /&gt;
+代理地址：&lt;code&gt;https://api.undz.cn/gh/gist/username/abc123&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;GitHub API 调用&lt;/strong&gt;&lt;br /&gt;
+原始地址：&lt;code&gt;https://api.github.com/users/octocat&lt;/code&gt;&lt;br /&gt;
+代理地址：&lt;code&gt;https://api.undz.cn/gh/api/users/octocat&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;💡 如果代理后页面出现样式错乱或图片缺失，请尝试使用 &lt;strong&gt;&lt;code&gt;/gh_fix/&lt;/code&gt;&lt;/strong&gt; 前缀，它会自动重写页面内的链接，修复相对路径和 CSP 限制。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;h2&gt;二、通用代理模式&lt;/h2&gt;
+&lt;p&gt;[!info]
+此代理不面向公众开放&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;三、工作原理&lt;/h2&gt;
+&lt;p&gt;代理服务基于 Cloudflare Workers 实现：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;请求拦截&lt;/strong&gt;：根据路径前缀识别代理请求，提取目标 URL。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;内容获取&lt;/strong&gt;：使用自定义 User-Agent 向上游发起请求，跟随重定向。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;智能重写&lt;/strong&gt;（&lt;code&gt;*_fix&lt;/code&gt; 模式）：对返回的 HTML 进行解析，重写所有 &lt;code&gt;script&lt;/code&gt;、&lt;code&gt;link&lt;/code&gt;、&lt;code&gt;img&lt;/code&gt;、&lt;code&gt;a&lt;/code&gt; 等标签的链接，使其再次通过代理，同时移除 &lt;code&gt;integrity&lt;/code&gt; 属性以避免 SRI 校验失败，并删除 CSP 头防止浏览器拦截。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitHub 专用优化&lt;/strong&gt;：内置 30+ 个 GitHub 相关域名的自动转换，支持短路径写法。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;四、注意事项与合理使用提醒&lt;/h2&gt;
+&lt;p&gt;代理服务为公共或半公共服务，请遵守以下准则：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;尊重版权与法律&lt;/strong&gt;&lt;br /&gt;
+请勿利用代理访问或传播侵权内容、违反中国法律法规或 GitHub 服务条款的材料。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;禁止滥用&lt;/strong&gt;&lt;br /&gt;
+不要使用代理进行大规模爬虫、压力测试、暴力破解、刷流量等行为，以免影响他人正常使用。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;密钥安全&lt;/strong&gt;&lt;br /&gt;
+如需使用通用代理，密钥为个人凭证，请勿上传至公开代码仓库、聊天记录或截图中。密钥泄露可导致他人滥用您的授权。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;服务可用性&lt;/strong&gt;&lt;br /&gt;
+代理服务由个人维护，不保证 100% 可用。如遇到响应缓慢或错误，可稍后重试或尝试切换 &lt;code&gt;/gh_fix/&lt;/code&gt; 与 &lt;code&gt;/gh/&lt;/code&gt; 模式。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;隐私说明&lt;/strong&gt;&lt;br /&gt;
+代理服务会记录访问的 IP 地址和请求路径，用于排查问题和防止滥用。完整 URL 可能会经过服务端，请勿传递敏感信息（如包含 Token 的私有链接）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;GitHub 专用模式无需授权&lt;/strong&gt;，但也请合理使用，避免对上游 GitHub 造成过量请求。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr /&gt;
+&lt;h2&gt;五、故障排除&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;现象&lt;/th&gt;
+&lt;th&gt;可能原因&lt;/th&gt;
+&lt;th&gt;解决办法&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;返回 403 Forbidden&lt;/td&gt;
+&lt;td&gt;访问通用代理但未授权&lt;/td&gt;
+&lt;td&gt;先完成 &lt;code&gt;/auth-proxy&lt;/code&gt; 授权流程&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;返回 400 Bad Request&lt;/td&gt;
+&lt;td&gt;代理路径格式错误&lt;/td&gt;
+&lt;td&gt;检查是否漏掉协议（&lt;code&gt;http://&lt;/code&gt; 或 &lt;code&gt;https://&lt;/code&gt;）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;页面样式丢失&lt;/td&gt;
+&lt;td&gt;HTML 中的相对路径未被转换&lt;/td&gt;
+&lt;td&gt;改用 &lt;code&gt;*_fix&lt;/code&gt; 模式（如 &lt;code&gt;/gh_fix/&lt;/code&gt; 或 &lt;code&gt;/proxy_fix/&lt;/code&gt;）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;授权成功后依然 403&lt;/td&gt;
+&lt;td&gt;Cookie 未携带或已过期&lt;/td&gt;
+&lt;td&gt;清除浏览器缓存/重试授权，或重新获取密钥&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;返回 5xx 错误&lt;/td&gt;
+&lt;td&gt;上游服务或代理内部错误&lt;/td&gt;
+&lt;td&gt;稍后重试，或联系服务提供者&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr /&gt;
+&lt;h2&gt;六、写在最后&lt;/h2&gt;
+&lt;p&gt;本代理服务旨在为开发者提供一个便捷的 GitHub 访问加速方案，适合在科研、学习、开源贡献等场景下使用。如果你觉得有用，可以分享给需要的朋友，但请一并转发本文的使用规范。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;快乐编码，从流畅访问 GitHub 开始！&lt;/strong&gt;&lt;/p&gt;
+</content:encoded></item><item><title>为什么我会选择成为一名 IT 工作者？</title><link>https://undz.cn/posts/why_i_become_a_programmer2026-04-20/</link><guid isPermaLink="true">https://undz.cn/posts/why_i_become_a_programmer2026-04-20/</guid><pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;说来也简单——我实在应付不来人际交往中的那些“千变万化”。机器虽然死板，但它足够忠诚：你让它做什么，它就做什么，从不会拐弯抹角，更不会违抗指令。这种确定性，比人心好懂太多了。于是，我顺理成章地走进了 IT 行业。&lt;/p&gt;
+&lt;p&gt;不过，这也不意味着从此就能避开所有人。社交始终是逃不掉的课题，而我又偏偏不擅长它。&lt;/p&gt;
+&lt;p&gt;百科上说，“社交”是在一定历史条件下，个体之间相互往来、进行物质与精神交流的社会活动——说白了，就是人与人之间的互动。那为什么程序员偏偏容易在这块“短腿”呢？我琢磨过几点：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第一，工作对象决定了训练方向。&lt;/strong&gt; 程序员的大部分时间都交给机器，我们擅长的是“人机对话”——让计算机说一不二。相比那些需要频繁与人打交道的职业，我们自然缺少社交的“肌肉记忆”。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第二，工作中仅有的交流场景，往往也是直奔问题而去。&lt;/strong&gt; 讨论方案、排查 bug、评审代码——每一场对话都围绕着“怎么解决”展开，而不是“怎么让对方舒服”。久而久之，我们养成了直击要害的习惯，不绕弯子，不打太极，不搞虚的。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第三，价值回报的导向。&lt;/strong&gt; 在这个行业里，最快、最准地找到解决方案，最能带来实实在在的回报。精力是有限的，把时间花在钻研技术、打磨分析能力上，远比琢磨人情世故更有性价比。潜意识里，社交自然就被排到了优先级末尾。&lt;/p&gt;
+&lt;p&gt;其实，不光是程序员，许多靠手艺吃饭的人，都比靠人脉、资源吃饭的人更不善言辞。这无关天赋，只关乎生存策略——什么能力真正影响你的饭碗，你就会不自觉地投入什么。而我们，只是选择把精力投向了机器这一端罢了。&lt;/p&gt;
+</content:encoded></item><item><title>Unity POST 网络请求实现</title><link>https://undz.cn/posts/unity_post_request/</link><guid isPermaLink="true">https://undz.cn/posts/unity_post_request/</guid><pubDate>Tue, 10 Mar 2026 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;&lt;/h1&gt;
+&lt;h2&gt;前言&lt;/h2&gt;
+&lt;p&gt;此文章只是 POST 请求，没有 GET、DELETE、PULL 等其它类型
+为什么一开始是这个呢？因为这是我遇到的第一个问题&lt;/p&gt;
+&lt;h2&gt;教程&lt;/h2&gt;
+&lt;p&gt;代码使用系统的 Http 库
+&lt;code&gt;using System.Net.Http;&lt;/code&gt;&lt;/p&gt;
+&lt;h3&gt;1.新建文件&lt;/h3&gt;
+&lt;p&gt;在 Unity 项目内新建一个名为&lt;code&gt;GameApiClient.cs&lt;/code&gt;的 C#代码文件。&lt;/p&gt;
+&lt;h3&gt;2.输入以下内容&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Net;
+using System.Net.Http;
+using System.Text;
+using System.Threading.Tasks;
+using UnityEngine;
+
+
+public class GameApiClient : MonoBehaviour
+{
+    public static GameApiClient Instance { get; private set; }
+    private  HttpClient Client  = new HttpClient();
+    private  string Domain = &quot;https://api.io.hb.cn/api/&quot;;
+    private  HttpResponseMessage response;
+    void Awake()
+    {
+
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+            Debug.Log(&quot;GameApiClient创建成功！&quot;);
+        }
+        else
+        {
+            Destroy(gameObject);
+            Debug.Log(&quot;已存在GameApiClient，销毁重复的&quot;);
+        }
+    }
+
+    public  async Task&amp;lt;HttpResponseMessage&amp;gt;  PostNetData(string path, string json)
+    {
+
+        var content = new StringContent(json, Encoding.UTF8, &quot;application/json&quot;);
+        Client.Timeout = TimeSpan.FromSeconds(5);
+        response = await Client.PostAsync(Domain + path, content);
+
+        return response;
+    }
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;3.加载&lt;/h3&gt;
+&lt;p&gt;在游戏第一个场景创建一个空游戏对象，绑定这个代码文件，启动游戏，如果游戏的日志有一条&lt;code&gt;GameApiClient创建成功！&lt;/code&gt;，则代表以上步骤你都完成了&lt;/p&gt;
+&lt;h3&gt;4.调用&lt;/h3&gt;
+&lt;p&gt;一个应用应该写一个类来处理网络请求，在其它类中处理返回
+要想在其他代码中发送 POST 请求，只需调用 &lt;code&gt;GameApiClient.Instance.PostNetData(string path, string json)&lt;/code&gt;
+::: warning 警告
+网络请求是异步的，所以需要使用&lt;code&gt;await&lt;/code&gt;来调用
+在&lt;code&gt;GameApiClient.cs&lt;/code&gt;中写了 API 的地址，这里是&lt;code&gt;https://api.io.hb.cn/api/&lt;/code&gt;，你需要替换为自己服务器的地址。
+:::&lt;/p&gt;
+&lt;h3&gt;5.处理&lt;/h3&gt;
+&lt;p&gt;该函数的返回格式是&lt;code&gt;HttpResponseMessage&lt;/code&gt;，所以需要定义一个&lt;code&gt;HttpResponseMessage&lt;/code&gt;类型的变量&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;using Newtonsoft.Json;
+private string Path_BagGet = &quot;/v1/bag/get&quot;;
+public async Task&amp;lt;int&amp;gt; GetBagData()
+{
+    var data = new { uuid, token };
+    string json = JsonConvert.SerializeObject(data);
+    HttpResponseMessage response = await GameApiClient.Instance.PostNetData(Path_BagGet, json);
+    string responseBody = await response.Content.ReadAsStringAsync();
+    Debug.Log(response.StatusCode);
+    switch (response.StatusCode)
+    {
+        case HttpStatusCode.OK:
+            var bagData = JsonConvert.DeserializeObject&amp;lt;BagData&amp;gt;(responseBody);
+            return int.Parse(bagData.level.ToLower());
+        default:
+            return -1;
+
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;:::info 关于此代码
+该代码取自 &amp;lt;a href=&quot;https://github.com/AeYunDian/Crossfire-Ys&quot; style=&quot;text-decoration: none;&quot;&amp;gt;Crossfire: Ys&amp;lt;/a&amp;gt; 的部分片段，可能无法直接运行
+:::&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;switch&lt;/code&gt;语句处理需要根据服务器具体返回做判断， &amp;lt;a href=&quot;https://github.com/AeYunDian/Crossfire-Ys&quot; style=&quot;text-decoration: none;&quot;&amp;gt;Crossfire: Ys&amp;lt;/a&amp;gt; 的网络处理逻辑是专门写几个类，游戏启动时自动加载，在其他需要用户信息时直接调用，
+我也推荐你使用这种做法，更加规范，如以后有变动，只需改几个文件，而不是在各个犄角旮旯一个个改。&lt;/p&gt;
+</content:encoded></item><item><title>Simple Guides for Mizuki</title><link>https://undz.cn/posts/guide/</link><guid isPermaLink="true">https://undz.cn/posts/guide/</guid><description>How to use this blog template.</description><pubDate>Mon, 01 Apr 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;This blog template is built with &lt;a href=&quot;https://astro.build/&quot;&gt;Astro&lt;/a&gt;. For the things that are not mentioned in this guide, you may find the answers in the &lt;a href=&quot;https://docs.astro.build/&quot;&gt;Astro Docs&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Front-matter of Posts&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;---
+title: My First Blog Post
+published: 2023-09-09
+description: This is the first post of my new Astro blog.
+image: ./cover.jpg
+tags: [Foo, Bar]
+category: Front-end
+draft: false
+---
+&lt;/code&gt;&lt;/pre&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Attribute&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;title&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;The title of the post.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;published&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;The date the post was published.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;pinned&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Whether this post is pinned to the top of the post list.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;priority&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;The priority of the pinned post. Smaller value means higher priority (0, 1, 2...).&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;description&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;A short description of the post. Displayed on index page.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;image&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;The cover image path of the post.&amp;lt;br/&amp;gt;1. Start with &lt;code&gt;http://&lt;/code&gt; or &lt;code&gt;https://&lt;/code&gt;: Use web image&amp;lt;br/&amp;gt;2. Start with &lt;code&gt;/&lt;/code&gt;: For image in &lt;code&gt;public&lt;/code&gt; dir&amp;lt;br/&amp;gt;3. With none of the prefixes: Relative to the markdown file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;tags&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;The tags of the post.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;category&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;The category of the post.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;licenseName&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;The license name for the post content.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;author&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;The author of the post.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;sourceLink&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;The source link or reference for the post content.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;draft&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;If this post is still a draft, which won&apos;t be displayed.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;Where to Place the Post Files&lt;/h2&gt;
+&lt;p&gt;Your post files should be placed in &lt;code&gt;src/content/posts/&lt;/code&gt; directory. You can also create sub-directories to better organize your posts and assets.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;src/content/posts/
+├── post-1.md
+└── post-2/
+    ├── cover.webp
+    └── index.md
+&lt;/code&gt;&lt;/pre&gt;
+</content:encoded></item></channel></rss>
