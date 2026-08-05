@@ -1,0 +1,9 @@
+name = "ay-api"
+compatibility_date = "2026-06-29"
+main = "index.js"
+keep_vars = true
+
+[assets]
+binding = "assets"
+directory = "dist"
+run_worker_first = false
